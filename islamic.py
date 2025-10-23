@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 # --- IMPORTANT ---
 # Enter your YouTube Data API Key here.
 # Go to https://console.cloud.google.com/apis/dashboard to create one.
-API_KEY = "Enter your API Key here"
+API_KEY = "AIzaSyCnwJrd2TIqF7loNiSjFlwOh9s6AZ2hm5g"
 
 YOUTUBE_SEARCH_URL = "https://www.googleapis.com/youtube/v3/search"
 YOUTUBE_VIDEO_URL = "https://www.googleapis.com/youtube/v3/videos"
