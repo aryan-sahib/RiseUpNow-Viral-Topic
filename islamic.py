@@ -12,39 +12,30 @@ YOUTUBE_VIDEO_URL = "https://www.googleapis.com/youtube/v3/videos"
 YOUTUBE_CHANNEL_URL = "https://www.googleapis.com/youtube/v3/channels"
 
 # Streamlit App Title
-st.title("YouTube Islamic Content Tool")
+st.title("YouTube Viral Quran Recitation Tool")
 
 # Input Fields
 days = st.number_input("Enter Days to Search (1-30):", min_value=1, max_value=30, value=5)
 
-# List of broader keywords related to Islamic content
+# List of keywords focused on viral Quran recitation
 keywords = [
-    "Quran Recitation",
-    "Beautiful Quran Recitation",
-    "Islamic Lecture",
-    "Islamic Reminder",
-    "Nasheed",
-    "Dua",
-    "Hadith",
-    "Seerah of Prophet Muhammad",
-    "Islamic Stories",
-    "Learn Quran",
-    "Tafsir",
-    "Daily Islamic Motivation",
-    "Prophets Stories",
-    "Islamic History",
-    "Peaceful Quran",
-    "Short Islamic Reminder",
-    "Islamic Nasheed No Music",
-    "How to pray",
-    "Five Pillars of Islam",
-    "Islamic Finance",
-    "Halal Lifestyle",
-    "Islamic Parenting",
-    "Understanding Hadith",
-    "Fiqh",
-    "Islamic Ethics"
+    "viral quran recitation",
+    "most viewed quran recitation",
+    "trending quran recitation",
+    "quran recitation that went viral",
+    "emotional quran recitation viral",
+    "beautiful quran recitation viral",
+    "powerful quran recitation viral",
+    "famous quran recitation",
+    "quran recitation goosebumps viral",
+    "heart touching quran recitation viral",
+    "best quran recitation ever viral",
+    "viral quran reaction",
+    "crying during quran recitation viral",
+    "quran recitation shorts viral",
+    "viral tilawat quran"
 ]
+
 
 # Fetch Data Button
 if st.button("Fetch Data"):
@@ -172,3 +163,4 @@ if st.button("Fetch Data"):
 
         except Exception as e:
             st.error(f"An error occurred: {e}")
+
